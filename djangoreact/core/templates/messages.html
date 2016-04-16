@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Django & ReactJS</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    p.message {
+      padding-bottom: 1rem;
+      border-bottom: 1px dotted #ccc;
+      margin-bottom: 1rem;
+    }
+    p.message:last-child {
+      border: 0;
+    }
+    span.author {
+      display: block;
+      font-weight: bold;
+    }
+    span.time_ago {
+      display: block;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div id="messages"></div>
+  <script src="{% static 'app.js' %}"></script>
+</body>
+</html>

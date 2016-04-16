@@ -1,0 +1,7 @@
+*.pyc
+.jscsrc
+.jshintrc
+.ropeproject/
+db.sqlite3
+djangoreact/core/static/app.js
+node_modules/
